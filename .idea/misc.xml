@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/activity_banners.xml" value="0.1796875" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/activity_boards.xml" value="0.1796875" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/activity_digital.xml" value="0.1796875" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/activity_laser.xml" value="0.1796875" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/activity_personlised.xml" value="0.1796875" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/activity_stickers.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/banners_list.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/boards_list.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/digital_list.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/fragment_banners.xml" value="0.1796875" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/laser_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/list_view.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/personlised_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/aljou/AndroidStudioProjects/Printorialimited/app/src/main/res/layout/sticker_list.xml" value="0.11979166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
