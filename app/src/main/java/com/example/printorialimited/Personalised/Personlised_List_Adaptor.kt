@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
@@ -53,6 +54,9 @@ class Personlised_List_Adaptor (context: Context, personlised_list : ArrayList<P
         viewHolder.personlised_image.setImageResource(PersonisedList.personlised_image)
         viewHolder.personlised_name.text = PersonisedList.personlised_name
         viewHolder.personlised_price.text = PersonisedList.personlised_price
+
+        var animation  = AnimationUtils.loadAnimation(context, R.anim.fade)
+        views!!.startAnimation(animation)
 
         return views as View
     }

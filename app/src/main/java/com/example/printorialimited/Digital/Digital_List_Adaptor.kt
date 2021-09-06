@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
@@ -55,6 +56,9 @@ class Digital_List_Adaptor (context: Context, digital_list : ArrayList<Digital_L
         viewHolder.digital_image.setImageResource(DigitalList.digital_image)
         viewHolder.digital_name.text = DigitalList.digital_name
         viewHolder.digital_price.text = DigitalList.digital_price
+
+        var animation  = AnimationUtils.loadAnimation(context, R.anim.fade)
+        views!!.startAnimation(animation)
 
         return views as View
     }

@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
@@ -56,6 +57,8 @@ class Boards_List_Adaptor (context: Context, board_list : ArrayList<Boards_List>
         viewHolder.board_name.text = BoardsLists.board_name
         viewHolder.board_price.text = BoardsLists.board_price
 
+        var animation  = AnimationUtils.loadAnimation(context, R.anim.fade)
+        views!!.startAnimation(animation)
         return views as View
     }
 

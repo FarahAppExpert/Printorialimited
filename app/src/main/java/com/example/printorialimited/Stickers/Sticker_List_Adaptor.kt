@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
@@ -56,6 +57,8 @@ class Sticker_List_Adaptor (context: Context, sticker_list : ArrayList<Sticker_L
         viewHolder.sticker_name.text = StickerList.sticker_name
         viewHolder.sticker_price.text = StickerList.sticker_price
 
+        var animation  = AnimationUtils.loadAnimation(context, R.anim.fade)
+        views!!.startAnimation(animation)
         return views as View
     }
 

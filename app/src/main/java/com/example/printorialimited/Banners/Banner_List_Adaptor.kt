@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
@@ -59,6 +60,9 @@ class Banner_List_Adaptor (context: Context, bannerlist : ArrayList<Banners_List
         viewHolder.banner_image.setImageResource(BannersLists.banner_image)
         viewHolder.banner_name.text = BannersLists.banner_name
         viewHolder.banner_price.text = BannersLists.Banner_Price
+
+        var animation  = AnimationUtils.loadAnimation(context, R.anim.fade)
+        views!!.startAnimation(animation)
 
         return views as View
     }

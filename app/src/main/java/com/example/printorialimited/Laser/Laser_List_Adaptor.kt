@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
@@ -55,6 +56,10 @@ class Laser_List_Adaptor (context: Context, laser_list : ArrayList<Laser_List>) 
         viewHolder.laser_image.setImageResource(LaserList.laser_image)
         viewHolder.laser_name.text = LaserList.laser_name
         viewHolder.laser_price.text = LaserList.laser_price
+
+        var animation  = AnimationUtils.loadAnimation(context, R.anim.fade)
+        views!!.startAnimation(animation)
+
         return views as View
     }
 
