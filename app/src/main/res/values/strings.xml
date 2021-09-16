@@ -2,6 +2,9 @@
     <string name="app_name">Printorialimited</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="banner_double_discription">Banners are a great way to promote your business, restaurant or special occasion.
+Custom printed in full colour on tough, lightweight material, these impactful PVC Banners are perfect for either indoor or outdoor advertising.
+</string>
 
-
+   <string name="banner_double_discription1">Our banners include Basic Graphic Design Service and/or Design Check Service.</string>
 </resources>

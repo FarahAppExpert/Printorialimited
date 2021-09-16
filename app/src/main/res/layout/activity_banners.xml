@@ -21,7 +21,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <RelativeLayout
+    <FrameLayout
+        android:id="@+id/bannerList_fragment"
         android:layout_width="410dp"
         android:layout_height="match_parent"
         android:layout_marginTop="120dp"
@@ -34,5 +35,5 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </RelativeLayout>
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

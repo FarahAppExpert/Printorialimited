@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ListView
+
 import com.example.printorialimited.R
 
 
@@ -17,7 +18,7 @@ class Banners : AppCompatActivity() {
 
         var listView : ListView = findViewById(R.id.banners_listview) as ListView
         var bannersListArry : ArrayList<Banners_List> = ArrayList()
-        bannersListArry.add(Banners_List(R.drawable.bannerdoublesides, "Banner Double Sided", "£0.00 – £2.00"))
+        bannersListArry.add(Banners_List(R.drawable.bannerdoublesides, "Banner Double Sided", "£2.40 sq. ft."))
         bannersListArry.add(Banners_List(R.drawable.bannersinglesided, "Banner Single Sided", "£1.60"))
         bannersListArry.add(Banners_List(R.drawable.meshbanner, "Mesh Banner", ""))
         bannersListArry.add(Banners_List(R.drawable.rollup, "Roller Up Stand", "£25.00 – £60.00"))
@@ -31,7 +32,7 @@ class Banners : AppCompatActivity() {
 
                 if (position == 0)
                 {
-
+                    supportFragmentManager.beginTransaction().add(R.id.bannerList_fragment, BannerDoubleSides()).commit()
 
                 }
                 else if (position == 1)
